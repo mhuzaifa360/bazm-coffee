@@ -1,35 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bazm-coffee</title>
-</head>
-<body>
-    <div class="main">
-        <nav class="navbar">
-            <div class="logo">
-                <h2>BAZM COFFEE</h2>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <!-- ? main container -->
+    <div class="main conatinerC" id="hero">
+
+        <!-- ? navbar  -->
+      <nav class="navbar containerR">
+        <div class="logo">
+          <h2>BAZM COFFEE</h2>
+        </div>
+        <div class="nav-links containerR">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <!-- ? hero section  -->
+      <div class="hero-section containerR">
+        <div class="hero-content containerC">
+          <h1>Freshly Brewed, Served with Love</h1>
+          <button class="coffee-btn">Explore More</button>
+        </div>
+        <div class="hero-dummy containerC"></div>
+      </div>
+
+      <!-- ? about section -->
+      <div class="about-section containerR" id="about">
+        <div class="about-pic containerR">
+            <img src="./assets/images/coffee with spon.jpg" alt="">
+        </div>
+        <div class="about-content containerC">
+            <h1 class="title">About</h1>
+            <h3>Bazm Coffee is a local coffee shop that has been serving since 2001.</h3>
+            <h3>Our gool is to provide cozy and inviting atmosphere where everyone can enjoy a great cup of coffee.</h3>
+        </div>
+      </div>
+
+
+      <!-- ? menu section------ -->
+      <div class="menu-section containerC" id="menu">
+        <h1 class="title">Menu</h1>
+
+        <div class="card-section containerC">
+
+            <!-- ? row1 cards  -->
+            <div class="r1 containerR">
+                <div class="card card1">
+                    <div class="card-img">
+                        <img src="./assets/images/americano-removebg-.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>americano</h2>
+                        <h3>Rs. 200</h3>
+                    </div>
+                    
+                </div>
+                <div class="card card2">
+                    <div class="card-img">
+                        <img src="./assets/images/Cappuccino.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Cappuccino</h2>
+                        <h3>Rs. 500</h3>
+                    </div>
+                  
+                </div>
+                <div class="card card3">
+                    <div class="card-img">
+                        <img src="./assets/images/Espressoo-removebg-preview.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Espressoo</h2>
+                        <h3>Rs. 350</h3>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="nav-links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Menu</a>
-                <a href="">Contact</a>
+
+            <!-- ? row 2 -->
+            <div class="r2 containerR">
+                <div class="card card1">
+                    <div class="card-img">
+                        <img src="./assets/images/Latte-removebg-preview.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Latte</h2>
+                        <h3>Rs. 450</h3>
+                    </div>
+                    
+                </div>
+                <div class="card card2">
+                    <div class="card-img">
+                        <img src="./assets/images/mocha-removebg-preview.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Mocha</h2>
+                        <h3>Rs. 500</h3>
+                    </div>
+                    
+                </div>
+                <div class="card card3">
+                    <div class="card-img">
+                        <img src="./assets/images/Espressoo-removebg-preview.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Espressoo</h2>
+                        <h3>Rs. 500</h3>
+                    </div>
+                    
+                </div>
+
             </div>
-        </nav>
-        <div class="hero-section">
+        </div>
+      </div>
 
-        </div>
-        <div class="about-section">
 
+      <!-- ? contact section------ -->
+      <div class="contact-section containerR" id="contact">
+        <div class="contact-info">
+            <div class="cards-c ">
+                <div class="cardc card1">
+                    <h2>Phone</h2>
+                    <h3>+913224589766</h3>
+                </div>
+                <div class="cardc card2">
+                    <h2>Email</h2>
+                    <h3>coffee@gmail.com</h3>
+                </div>
+                <div class="cardc card3">
+                    <h2>Location</h2>
+                    <h3>Peshawar Pakistan</h3>
+                </div>
+            </div>
         </div>
-        <div class="menu-section">
+        <div class="contact-form">
+            <form action="" class="containerC">
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="name">
+                </label>
+                <label for="subject">
+                    <input type="text" placeholder="subject">
+                </label>
+                <label for="email">
+                    <input type="email" name="" id="" placeholder="email">
+                </label>
+                <textarea name="message" id="" placeholder="message..." rows="4"
+                cols="48">
+                    
+                </textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+      </div>
 
-        </div>
-        <div class="contact-section">
-            
-        </div>
+
+      <!-- ? footer  -->
+
+      <footer>
+        Bamz Coffee | All rights reserved by Huzaifa
+      </footer>
     </div>
-</body>
+  </body>
 </html>
